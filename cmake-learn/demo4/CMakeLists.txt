@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 2.8)
 # 项目信息
 project(Demo4)
 
+set (CMAKE_INCLUDE_CURRENT_DIR ON)
+
 # 加入一个配置头文件，用于处理 CMake 对源码的设置
 configure_file(
         "${PROJECT_SOURCE_DIR}/config.h.in"
