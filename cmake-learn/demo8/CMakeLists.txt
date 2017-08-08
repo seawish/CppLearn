@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 # 项目信息
-project(Demo7)
+project(Demo8)
 set(DEMO_VERSION_MAJOR 1) # 主版本号
 set(DEMO_VERSION_MINOR 0) # 副版本号
 

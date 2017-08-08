@@ -62,3 +62,11 @@ CMake学习
 3. 设置一些 CPack 相关变量，包括版权信息和版本信息，其中版本信息用了上一节定义的版本号；
 4. 导入 CPack 模块。
 ```
+##### 命令：
+
+```cmake
+cmake .  或 ccmake .
+make
+cpack -C CPackConfig.cmake // 生成二进制安装包
+cpack -C CPackSourceConfig.cmake // 生成源码安装包
+```
